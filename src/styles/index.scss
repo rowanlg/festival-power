@@ -1,0 +1,15 @@
+@import "./colours.scss";
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: $black;
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(239, 61, 97, 1) 50%,
+  //   rgba(0, 185, 195, 1) 50%
+  // );
+  color: $white;
+  letter-spacing: 2px;
+}

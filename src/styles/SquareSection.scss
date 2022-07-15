@@ -1,0 +1,35 @@
+@import "./colours.scss";
+
+.container {
+  // border: 1px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // width: 90vw;
+  width: 90vw;
+  max-width: 1300px;
+  margin: -26.5px auto 0;
+  @media screen and (min-width: 570px) {
+    justify-content: flex-start;
+    width: 86vw;
+  }
+  .square-box {
+    // border: 1px solid yellow;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 570px) {
+      margin: 0 2rem;
+    }
+    p {
+      text-align: center;
+      // border: 1px solid yellow;
+      margin-top: 1.5rem;
+      color: $blue;
+      overflow: visible;
+      white-space: nowrap;
+    }
+  }
+}

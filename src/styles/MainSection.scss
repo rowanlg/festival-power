@@ -1,0 +1,54 @@
+@import "./colours.scss";
+
+.main-container {
+  width: 100vw;
+  // border: 1px solid red;
+  margin-top: -140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  overflow: visible;
+  .background {
+    margin: 0 auto;
+    z-index: -1;
+    grid-area: 1 / 1 / 8 / 8;
+    width: 100vw;
+    max-height: 70vh;
+    min-height: 351px;
+    border-bottom: 3px solid #fafafa;
+  }
+  .left-side {
+    grid-area: 2 / 1 / 8 / 4;
+    z-index: 5;
+    margin: auto auto auto 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100px;
+    @media screen and (min-width: 481px) {
+      width: 150px;
+    }
+    @media screen and (min-width: 1025px) {
+      width: 250px;
+    }
+  }
+  .right-side {
+    grid-area: 2 / 5 / 8 / 8;
+    z-index: 5;
+    margin: auto 0 auto auto;
+    float: right;
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    // border: 1px solid red;
+    width: 100px;
+    @media screen and (min-width: 481px) {
+      width: 150px;
+    }
+    @media screen and (min-width: 1025px) {
+      width: 250px;
+    }
+  }
+}
