@@ -1,7 +1,9 @@
 @import "./colours.scss";
 
 body {
-  overflow-x: hidden;
+  // overflow-x: hidden;
+  // overflow-y: visible;
+  // overflow: hidden;
   margin: 0;
   padding: 0;
   background-color: $black;

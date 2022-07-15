@@ -9,8 +9,6 @@ import ContactSection from "../components/ContactSection"
 
 export default function Home() {
   const [contactOpen, setContactOpen] = useState(false)
-  // const innerheight = useWindowSize().height
-  // console.log(contactOpen)
   return (
     <main>
       <NavBar setContactOpen={setContactOpen} />
