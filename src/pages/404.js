@@ -3,10 +3,12 @@ import { Link } from "gatsby"
 // import "../styles/index.scss"
 import NavBar from "../components/NavBar"
 import FooterSection from "../components/FooterSection"
+import Seo from "../components/Seo"
 
 const ErrorPage = ({}) => {
   return (
     <main>
+      <Seo page="404 page not found" />
       <NavBar />
       <h3 style={{ maxWidth: "400px", margin: "auto", textAlign: "center" }}>
         Uh oh - Looks like you've gone down the wrong road
