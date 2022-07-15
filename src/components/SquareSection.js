@@ -9,7 +9,7 @@ const SquareSection = () => {
         <StaticImage
           src="../assets/square.png"
           alt="Square 1"
-          placeholder="tracedSVG"
+          placeholder="blurred"
           layout="constrained"
           width={50}
         />
@@ -19,7 +19,7 @@ const SquareSection = () => {
         <StaticImage
           src="../assets/square.png"
           alt="Square 2"
-          placeholder="tracedSVG"
+          placeholder="blurred"
           layout="constrained"
           width={50}
         />
@@ -29,7 +29,7 @@ const SquareSection = () => {
         <StaticImage
           src="../assets/square.png"
           alt="Square 3"
-          placeholder="tracedSVG"
+          placeholder="blurred"
           layout="constrained"
           width={50}
         />

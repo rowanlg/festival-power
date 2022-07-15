@@ -20,7 +20,7 @@ const MainSection = () => {
         <StaticImage
           src="../assets/left-side.png"
           alt="Left Triangle"
-          placeholder="tracedSVG"
+          placeholder="blurred"
           layout="constrained"
           width={250}
         />
@@ -29,7 +29,7 @@ const MainSection = () => {
         <StaticImage
           src="../assets/right-side.png"
           alt="Right Triangle"
-          placeholder="tracedSVG"
+          placeholder="blurred"
           layout="constrained"
           width={250}
         />
