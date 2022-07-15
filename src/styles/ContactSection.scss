@@ -11,19 +11,36 @@
   justify-content: center;
   align-items: center;
   // flex-direction: column;
+  padding: 2rem 0;
+  @media screen and (min-width: 515px) {
+    padding: 0;
+  }
   .content {
     min-width: 500px;
     // border: 1px solid green;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transition: opacity 2s ease;
+    @media screen and (min-width: 515px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
   }
   h3 {
     // text-align: center;
     border: 1px solid $white;
-    padding: 134px 2rem;
+    width: 220px;
+    padding: 1rem 0.5rem;
+    text-align: center;
     border-radius: 10px;
+    @media screen and (min-width: 515px) {
+      padding: 134px 2rem;
+      text-align: left;
+      width: auto;
+    }
   }
   .form {
     margin: 0;

@@ -6,7 +6,7 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 const NavBar = ({ setContactOpen }) => {
   const [toggleNav, setToggleNav] = useState(false)
-  console.log(toggleNav)
+  // console.log(toggleNav)
   return (
     <nav>
       <Link to="/">

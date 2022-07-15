@@ -1,10 +1,10 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import useWindowSize from "../utils/useWindowSize"
+// import useWindowSize from "../utils/useWindowSize"
 import "../styles/MainSection.scss"
 
 const MainSection = () => {
-  const innerheight = useWindowSize().height
+  // const innerheight = useWindowSize().height
   return (
     <div className="main-container" id="home-section">
       {/* <div className="logo"> */}

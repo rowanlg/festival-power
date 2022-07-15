@@ -7,7 +7,7 @@ const ContactSection = ({ contactOpen }) => {
       className="contact-container"
       style={
         contactOpen
-          ? { height: "500px", opacity: "1" }
+          ? { height: "600px", opacity: "1" }
           : { height: "0", opacity: 0 }
       }
     >
