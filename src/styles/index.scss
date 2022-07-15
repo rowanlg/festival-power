@@ -1,21 +1,20 @@
 @import "./colours.scss";
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   // overflow-x: hidden;
   // overflow-y: visible;
   // overflow: hidden;
-  margin: 0;
-  padding: 0;
-  background-color: $black;
+  // margin: 0;
+  // padding: 0;
   // background: linear-gradient(
   //   90deg,
   //   rgba(239, 61, 97, 1) 50%,
   //   rgba(0, 185, 195, 1) 50%
   // );
+  background-color: $black;
   color: $white;
   letter-spacing: 2px;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
