@@ -4,11 +4,58 @@
   width: 100vw;
   // height: 200px;
   border-top: 3px solid $white;
-  background-color: $red;
+  background-color: $blue;
   transition: all 1s ease;
   // transition: opacity 1s ease;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  // flex-direction: column;
+  .content {
+    min-width: 500px;
+    // border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: opacity 2s ease;
+  }
+  h3 {
+    // text-align: center;
+    border: 1px solid $white;
+    padding: 134px 2rem;
+    border-radius: 10px;
+  }
+  .form {
+    margin: 0;
+    input {
+      border: 1px solid $white;
+      background-color: $white;
+      border-radius: 10px;
+      color: $black;
+      font-size: 0.8rem;
+      padding: 0.5rem;
+      width: 220px;
+    }
+    textarea {
+      border: 1px solid $white;
+      background-color: $white;
+      border-radius: 10px;
+      color: $black;
+      font-size: 0.8rem;
+      padding: 0.5rem;
+      width: 220px;
+      height: 150px;
+      resize: none;
+    }
+    button {
+      border: 1px solid $white;
+      background-color: transparent;
+      border-radius: 10px;
+      color: $white;
+      font-size: 0.8rem;
+      padding: 0.5rem;
+      width: 220px;
+      cursor: pointer;
+    }
+  }
 }

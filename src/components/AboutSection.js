@@ -38,14 +38,14 @@ const AboutSection = ({ contactOpen, setContactOpen }) => {
         layout="constrained"
         className="image-2"
       />
-      <p
+      <button
         className="contact-us"
         onClick={() => {
           setContactOpen(!contactOpen)
         }}
       >
         CONTACT US
-      </p>
+      </button>
     </div>
   )
 }
