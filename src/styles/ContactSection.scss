@@ -1,0 +1,14 @@
+@import "./colours.scss";
+
+.contact-container {
+  width: 100vw;
+  // height: 200px;
+  border-top: 3px solid $white;
+  background-color: $red;
+  transition: all 1s ease;
+  // transition: opacity 1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

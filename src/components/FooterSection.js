@@ -3,7 +3,7 @@ import "../styles/FooterSection.scss"
 
 const FooterSection = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="contact-section">
       <div className="footer-flex">
         <h2>POWERING CREATIVITY, ADVENTURE & PASSION</h2>
         <div className="line" />

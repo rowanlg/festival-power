@@ -2,8 +2,9 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import "../styles/NavBar.scss"
 import { Link } from "gatsby"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
-const NavBar = () => {
+const NavBar = ({ setContactOpen }) => {
   return (
     <nav>
       <Link to="/">
@@ -16,9 +17,16 @@ const NavBar = () => {
       </Link>
       <div>
         <ul>
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>CONTACT</li>
+          <li onClick={() => scrollTo("#home-section")}>HOME</li>
+          <li onClick={() => scrollTo("#about-section")}>ABOUT</li>
+          <li
+            onClick={() => {
+              // setContactOpen(true)
+              scrollTo("#contact-section")
+            }}
+          >
+            CONTACT
+          </li>
           {/* <li>BLOG</li> */}
         </ul>
       </div>

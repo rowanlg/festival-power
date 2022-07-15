@@ -2,9 +2,9 @@ import React from "react"
 import "../styles/AboutSection.scss"
 import { StaticImage } from "gatsby-plugin-image"
 
-const AboutSection = () => {
+const AboutSection = ({ contactOpen, setContactOpen }) => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about-section">
       <h1 className="title">
         EXPERTS
         <br /> IN SMALL-SCALE
@@ -38,7 +38,14 @@ const AboutSection = () => {
         layout="constrained"
         className="image-2"
       />
-      <p className="contact-us">CONTACT US</p>
+      <p
+        className="contact-us"
+        onClick={() => {
+          setContactOpen(!contactOpen)
+        }}
+      >
+        CONTACT US
+      </p>
     </div>
   )
 }

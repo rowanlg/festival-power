@@ -6,7 +6,7 @@ import "../styles/MainSection.scss"
 const MainSection = () => {
   const innerheight = useWindowSize().height
   return (
-    <div className="main-container">
+    <div className="main-container" id="home-section">
       {/* <div className="logo"> */}
       <StaticImage
         src="../assets/background-image.jpg"
