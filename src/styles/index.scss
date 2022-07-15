@@ -1,5 +1,9 @@
 @import "./colours.scss";
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   // overflow-x: hidden;
   // overflow-y: visible;
