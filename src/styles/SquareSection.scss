@@ -8,7 +8,7 @@
   // width: 90vw;
   width: 90vw;
   max-width: 1300px;
-  margin: -26.5px auto 0;
+  margin: -125px auto 0;
   @media screen and (min-width: 570px) {
     justify-content: flex-start;
     width: 86vw;
@@ -20,13 +20,17 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    svg {
+      width: 50px;
+    }
+
     @media screen and (min-width: 570px) {
       margin: 0 2rem;
     }
     p {
       text-align: center;
       // border: 1px solid yellow;
-      margin-top: 1.5rem;
+      margin-top: -3rem;
       color: $blue;
       overflow: visible;
       white-space: nowrap;
