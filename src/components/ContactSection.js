@@ -26,19 +26,24 @@ const ContactSection = ({ contactOpen }) => {
           data-netlify="true"
           style={contactOpen ? { display: "block" } : { display: "none" }}
         >
+          <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
-              <input type="text" name="name" placeholder="NAME" />
+              <input type="text" name="name" placeholder="NAME" required />
             </label>
           </p>
           <p>
             <label>
-              <input type="email" name="email" placeholder="EMAIL" />
+              <input type="email" name="email" placeholder="EMAIL" required />
             </label>
           </p>
           <p>
             <label>
-              <textarea name="message" placeholder="MESSAGE"></textarea>
+              <textarea
+                name="message"
+                placeholder="MESSAGE"
+                required
+              ></textarea>
             </label>
           </p>
           <p>
