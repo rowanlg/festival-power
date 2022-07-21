@@ -23,7 +23,7 @@ const Seo = ({ page }) => {
         property="og:description"
         content="Experts in Temporary Power Solutions for small and large events around the UK"
       />
-      <meta name="twitter:card" content={ImageCard} />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:image:alt"
         content="Festival Power - Powering Creativity, Adventure & Passion"
