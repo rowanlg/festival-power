@@ -15,6 +15,17 @@ const MainSection = () => {
         layout="constrained"
         className="background"
       />
+      <div className="centre-graphic">
+        <StaticImage
+          src="../assets/full-logo.png"
+          alt="Festival Power Full Logo"
+          placeholder="tracedSVG"
+          layout="constrained"
+          className="logo-centre"
+        />
+        {/* <div className="line" />
+        <h2>POWERING CREATIVITY, ADVENTURE & PASSION</h2> */}
+      </div>
       {/* </div> */}
       <div className="left-side">
         <StaticImage

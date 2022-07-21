@@ -43,7 +43,7 @@ const SquareSection = () => {
             </linearGradient>
           </defs>
         </svg>
-        <p>We Listen</p>
+        <p>We Create</p>
       </div>
       <div className="square-box">
         {/* <StaticImage
@@ -83,7 +83,7 @@ const SquareSection = () => {
             </linearGradient>
           </defs>
         </svg>
-        <p>We Hire</p>
+        <p>We Install</p>
       </div>
       <div className="square-box">
         {/* <StaticImage
@@ -123,7 +123,7 @@ const SquareSection = () => {
             </linearGradient>
           </defs>
         </svg>
-        <p>We Install</p>
+        <p>We Deliver</p>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/ContactSection.scss"
+import { StaticImage } from "gatsby-plugin-image"
 
 const ContactSection = ({ contactOpen }) => {
   return (
@@ -11,6 +12,13 @@ const ContactSection = ({ contactOpen }) => {
           : { height: "0", opacity: 0 }
       }
     >
+      <StaticImage
+        src="../assets/contact-background-image.jpg"
+        alt="Festival Power Crowd"
+        placeholder="blurred"
+        layout="constrained"
+        className="background"
+      />
       <div
         className="content"
         style={contactOpen ? { opacity: "1" } : { opacity: "0" }}

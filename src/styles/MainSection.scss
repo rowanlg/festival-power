@@ -4,6 +4,8 @@
   width: 100vw;
   // border: 1px solid red;
   margin-top: -195px;
+  max-height: 850px;
+  min-height: 420px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -14,9 +16,50 @@
     z-index: -1;
     grid-area: 1 / 1 / 8 / 8;
     width: 100vw;
-    max-height: 75vh;
-    min-height: 351px;
+    // min-height: 1000px;
     border-bottom: 3px solid #fafafa;
+  }
+  .centre-graphic {
+    grid-area: 4 / 3 / 6 / 6;
+    margin: auto;
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      text-align: left;
+      max-width: 250px;
+      text-transform: uppercase;
+      padding: 1rem 0;
+      margin: 0;
+      font-size: 1vw;
+      flex: 1 1 0px;
+      display: none;
+      @media screen and (min-width: 515px) {
+        font-size: 2vw;
+        flex: 0 1 auto;
+        display: block;
+      }
+    }
+    .line {
+      width: 2px;
+      height: 10vw;
+      border-radius: 2px;
+      background-color: $white;
+      margin: 0 1rem;
+      // flex: 1 1 0px;
+    }
+  }
+  .logo-centre {
+    min-width: 100px;
+    width: 20vw;
+    flex: 0 1 auto;
+    @media screen and (min-width: 481px) {
+      // width: 150px;
+    }
+    @media screen and (min-width: 1025px) {
+      // width: 250px;
+    }
   }
   .left-side {
     grid-area: 2 / 1 / 8 / 4;
