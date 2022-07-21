@@ -10,14 +10,19 @@ const Seo = ({ page }) => {
       <meta name="theme-color" content="#000000" />
       <meta
         name="description"
-        content="Powering Creativity, Adventure & Passion - Power for events around the UK"
+        content="Experts in Temporary Power Solutions for small and large events around the UK"
       />
       <meta name="image" content={ImageCard} />
-      <meta property="og:url" content="festivalpower.netlify.app" />
+      <meta property="og:title" content={page} />
+      <meta property="og:url" content="https://festivalpower.co.uk" />
       <meta property="og:image" content={ImageCard} />
       <meta property="og:site_name" content="Festival Power" />
       <meta property="og:locale" content="en_GB" />
       <meta property="og:type" content="website" />
+      <meta
+        property="og:description"
+        content="Experts in Temporary Power Solutions for small and large events around the UK"
+      />
       <meta name="twitter:card" content={ImageCard} />
       <meta
         name="twitter:image:alt"
