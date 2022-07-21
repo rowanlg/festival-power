@@ -12,13 +12,12 @@ const AboutSection = ({ contactOpen, setContactOpen }) => {
       </h1>
       <p className="text-1">
         Festival Power was founded in 2021. Having worked in events for over 15
-        years, the team behind Festival Power are enthusiastic to join the ever
-        growing industry and to use their experience to provide an excellent
-        service to their clients. From small outdoor weddings to large scale
-        music festivals we can provide generators, temporary electrical
-        installations and site lighting. Festival Power will incorporate our
-        fresh ideas and creativity into designing the right package for your
-        event.
+        years, we are enthusiastic to join the ever growing industry and use our
+        experience to provide an excellent service to our clients. From small
+        outdoor weddings to large scale music festivals, we can provide
+        generators, temporary electrical installations and site lighting.
+        Festival Power will incorporate our fresh ideas and creativity into
+        designing the right package for your event.
       </p>
       <p className="text-2">
         We have launched the company with a large stock of distribution boards,

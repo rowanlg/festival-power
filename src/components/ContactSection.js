@@ -23,10 +23,18 @@ const ContactSection = ({ contactOpen }) => {
         className="content"
         style={contactOpen ? { opacity: "1" } : { opacity: "0" }}
       >
-        <h3>
-          MESSAGE US
-          <br /> FOR A QUOTE
-        </h3>
+        <div className="text">
+          <h3>GET IN TOUCH</h3>
+          <p>
+            <a
+              href="mailto:info@festivalpower.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              info@festivalpower.co.uk
+            </a>
+          </p>
+        </div>
         <form
           className="form"
           name="contact"
